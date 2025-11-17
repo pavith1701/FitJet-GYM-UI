@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7836E86D2C6EB477302FF4CE /* Pods_FitJetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9ABD495E0461372A06E006 /* Pods_FitJetTests.framework */; };
+		8D19F65114E8335453FA8B38 /* Pods_FitJet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8132BDA769BD111957353D /* Pods_FitJet.framework */; };
+		A49D20E964B7FAB6F5629EB8 /* Pods_FitJet_FitJetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29331298C1574DBA5DF30E88 /* Pods_FitJet_FitJetUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB63FAE2EC596D200AC62B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB63F932EC596D100AC62B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB63F9A2EC596D100AC62B4;
+			remoteInfo = FitJet;
+		};
+		ECB63FB82EC596D200AC62B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB63F932EC596D100AC62B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB63F9A2EC596D100AC62B4;
+			remoteInfo = FitJet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29331298C1574DBA5DF30E88 /* Pods_FitJet_FitJetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitJet_FitJetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8132BDA769BD111957353D /* Pods_FitJet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitJet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9ABD495E0461372A06E006 /* Pods_FitJetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitJetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF469A5D2744F322B2B6A33 /* Pods-FitJet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJet.debug.xcconfig"; path = "Target Support Files/Pods-FitJet/Pods-FitJet.debug.xcconfig"; sourceTree = "<group>"; };
+		572F4BDF7886D7C8D57478F1 /* Pods-FitJet-FitJetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJet-FitJetUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitJet-FitJetUITests/Pods-FitJet-FitJetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87AA97E2D1E7951E25DEA692 /* Pods-FitJetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJetTests.debug.xcconfig"; path = "Target Support Files/Pods-FitJetTests/Pods-FitJetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9182DE487A0DC9DE22199C9B /* Pods-FitJet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJet.release.xcconfig"; path = "Target Support Files/Pods-FitJet/Pods-FitJet.release.xcconfig"; sourceTree = "<group>"; };
+		B045B88FBF74C1CB80EA07CD /* Pods-FitJetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJetTests.release.xcconfig"; path = "Target Support Files/Pods-FitJetTests/Pods-FitJetTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEB9CB7DF460313903F82077 /* Pods-FitJet-FitJetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitJet-FitJetUITests.release.xcconfig"; path = "Target Support Files/Pods-FitJet-FitJetUITests/Pods-FitJet-FitJetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECB63F9B2EC596D100AC62B4 /* FitJet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitJet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB63FAD2EC596D200AC62B4 /* FitJetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitJetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB63FB72EC596D200AC62B4 /* FitJetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitJetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECB63F9D2EC596D100AC62B4 /* FitJet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitJet;
+			sourceTree = "<group>";
+		};
+		ECB63FB02EC596D200AC62B4 /* FitJetTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitJetTests;
+			sourceTree = "<group>";
+		};
+		ECB63FBA2EC596D200AC62B4 /* FitJetUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FitJetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB63F982EC596D100AC62B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D19F65114E8335453FA8B38 /* Pods_FitJet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FAA2EC596D200AC62B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7836E86D2C6EB477302FF4CE /* Pods_FitJetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FB42EC596D200AC62B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49D20E964B7FAB6F5629EB8 /* Pods_FitJet_FitJetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4BDAB04E4A4A6859443C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8132BDA769BD111957353D /* Pods_FitJet.framework */,
+				29331298C1574DBA5DF30E88 /* Pods_FitJet_FitJetUITests.framework */,
+				2C9ABD495E0461372A06E006 /* Pods_FitJetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88A6BA78A6D01340FB9BB36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF469A5D2744F322B2B6A33 /* Pods-FitJet.debug.xcconfig */,
+				9182DE487A0DC9DE22199C9B /* Pods-FitJet.release.xcconfig */,
+				572F4BDF7886D7C8D57478F1 /* Pods-FitJet-FitJetUITests.debug.xcconfig */,
+				BEB9CB7DF460313903F82077 /* Pods-FitJet-FitJetUITests.release.xcconfig */,
+				87AA97E2D1E7951E25DEA692 /* Pods-FitJetTests.debug.xcconfig */,
+				B045B88FBF74C1CB80EA07CD /* Pods-FitJetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECB63F922EC596D100AC62B4 = {
+			isa = PBXGroup;
+			children = (
+				ECB63F9D2EC596D100AC62B4 /* FitJet */,
+				ECB63FB02EC596D200AC62B4 /* FitJetTests */,
+				ECB63FBA2EC596D200AC62B4 /* FitJetUITests */,
+				ECB63F9C2EC596D100AC62B4 /* Products */,
+				A88A6BA78A6D01340FB9BB36 /* Pods */,
+				6D4BDAB04E4A4A6859443C31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB63F9C2EC596D100AC62B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB63F9B2EC596D100AC62B4 /* FitJet.app */,
+				ECB63FAD2EC596D200AC62B4 /* FitJetTests.xctest */,
+				ECB63FB72EC596D200AC62B4 /* FitJetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB63F9A2EC596D100AC62B4 /* FitJet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB63FC12EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJet" */;
+			buildPhases = (
+				17A37F39B86CF14FBFA6335D /* [CP] Check Pods Manifest.lock */,
+				ECB63F972EC596D100AC62B4 /* Sources */,
+				ECB63F982EC596D100AC62B4 /* Frameworks */,
+				ECB63F992EC596D100AC62B4 /* Resources */,
+				11772DCE8AAD889CD260B1C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECB63F9D2EC596D100AC62B4 /* FitJet */,
+			);
+			name = FitJet;
+			productName = FitJet;
+			productReference = ECB63F9B2EC596D100AC62B4 /* FitJet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB63FAC2EC596D200AC62B4 /* FitJetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB63FC42EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJetTests" */;
+			buildPhases = (
+				E24D42FE2567C3ADB94590BB /* [CP] Check Pods Manifest.lock */,
+				ECB63FA92EC596D200AC62B4 /* Sources */,
+				ECB63FAA2EC596D200AC62B4 /* Frameworks */,
+				ECB63FAB2EC596D200AC62B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB63FAF2EC596D200AC62B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECB63FB02EC596D200AC62B4 /* FitJetTests */,
+			);
+			name = FitJetTests;
+			productName = FitJetTests;
+			productReference = ECB63FAD2EC596D200AC62B4 /* FitJetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB63FB62EC596D200AC62B4 /* FitJetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB63FC72EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJetUITests" */;
+			buildPhases = (
+				E4448145B0282EB809CADC56 /* [CP] Check Pods Manifest.lock */,
+				ECB63FB32EC596D200AC62B4 /* Sources */,
+				ECB63FB42EC596D200AC62B4 /* Frameworks */,
+				ECB63FB52EC596D200AC62B4 /* Resources */,
+				1F494D5178A2690551A4EF4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB63FB92EC596D200AC62B4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECB63FBA2EC596D200AC62B4 /* FitJetUITests */,
+			);
+			name = FitJetUITests;
+			productName = FitJetUITests;
+			productReference = ECB63FB72EC596D200AC62B4 /* FitJetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB63F932EC596D100AC62B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					ECB63F9A2EC596D100AC62B4 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					ECB63FAC2EC596D200AC62B4 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = ECB63F9A2EC596D100AC62B4;
+					};
+					ECB63FB62EC596D200AC62B4 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = ECB63F9A2EC596D100AC62B4;
+					};
+				};
+			};
+			buildConfigurationList = ECB63F962EC596D100AC62B4 /* Build configuration list for PBXProject "FitJet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB63F922EC596D100AC62B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECB63F9C2EC596D100AC62B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB63F9A2EC596D100AC62B4 /* FitJet */,
+				ECB63FAC2EC596D200AC62B4 /* FitJetTests */,
+				ECB63FB62EC596D200AC62B4 /* FitJetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB63F992EC596D100AC62B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FAB2EC596D200AC62B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FB52EC596D200AC62B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11772DCE8AAD889CD260B1C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitJet/Pods-FitJet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitJet/Pods-FitJet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitJet/Pods-FitJet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17A37F39B86CF14FBFA6335D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitJet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F494D5178A2690551A4EF4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitJet-FitJetUITests/Pods-FitJet-FitJetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitJet-FitJetUITests/Pods-FitJet-FitJetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitJet-FitJetUITests/Pods-FitJet-FitJetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24D42FE2567C3ADB94590BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitJetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4448145B0282EB809CADC56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitJet-FitJetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB63F972EC596D100AC62B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FA92EC596D200AC62B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB63FB32EC596D200AC62B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB63FAF2EC596D200AC62B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB63F9A2EC596D100AC62B4 /* FitJet */;
+			targetProxy = ECB63FAE2EC596D200AC62B4 /* PBXContainerItemProxy */;
+		};
+		ECB63FB92EC596D200AC62B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB63F9A2EC596D100AC62B4 /* FitJet */;
+			targetProxy = ECB63FB82EC596D200AC62B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECB63FBF2EC596D200AC62B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB63FC02EC596D200AC62B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB63FC22EC596D200AC62B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF469A5D2744F322B2B6A33 /* Pods-FitJet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB63FC32EC596D200AC62B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9182DE487A0DC9DE22199C9B /* Pods-FitJet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB63FC52EC596D200AC62B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AA97E2D1E7951E25DEA692 /* Pods-FitJetTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitJet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitJet";
+			};
+			name = Debug;
+		};
+		ECB63FC62EC596D200AC62B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B045B88FBF74C1CB80EA07CD /* Pods-FitJetTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitJet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitJet";
+			};
+			name = Release;
+		};
+		ECB63FC82EC596D200AC62B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572F4BDF7886D7C8D57478F1 /* Pods-FitJet-FitJetUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitJet;
+			};
+			name = Debug;
+		};
+		ECB63FC92EC596D200AC62B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB9CB7DF460313903F82077 /* Pods-FitJet-FitJetUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VX6NAN5CF4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FitJet.Dev.FitJetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitJet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB63F962EC596D100AC62B4 /* Build configuration list for PBXProject "FitJet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB63FBF2EC596D200AC62B4 /* Debug */,
+				ECB63FC02EC596D200AC62B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB63FC12EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB63FC22EC596D200AC62B4 /* Debug */,
+				ECB63FC32EC596D200AC62B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB63FC42EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB63FC52EC596D200AC62B4 /* Debug */,
+				ECB63FC62EC596D200AC62B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB63FC72EC596D200AC62B4 /* Build configuration list for PBXNativeTarget "FitJetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB63FC82EC596D200AC62B4 /* Debug */,
+				ECB63FC92EC596D200AC62B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB63F932EC596D100AC62B4 /* Project object */;
+}

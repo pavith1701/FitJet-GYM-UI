@@ -1,0 +1,6 @@
+framework module Pods_FitJet_FitJetUITests {
+  umbrella header "Pods-FitJet-FitJetUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

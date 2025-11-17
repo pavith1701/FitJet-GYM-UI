@@ -1,0 +1,6 @@
+framework module Pods_FitJet {
+  umbrella header "Pods-FitJet-umbrella.h"
+
+  export *
+  module * { export * }
+}
